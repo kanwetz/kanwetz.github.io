@@ -16,6 +16,9 @@
       li a{
         color: pink;
       }
+      ul li{
+        border: 1px solid black;
+      }
       #exec-bio {
         background-color: lightgray;
       }
@@ -25,13 +28,19 @@
       .bio-box a {
         color: green;
       }
+      #first-link {
+        background-color: orange;
+      }
+      .new-class {
+        background-color: azure;
+      }
     </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a id="first-link" href="http://example.com/">Link</a>
       </li>
       <li>
         <a href="http://example.com/">Link</a>
@@ -41,16 +50,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box new-class">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box new-class">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box new-class">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box new-class">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
